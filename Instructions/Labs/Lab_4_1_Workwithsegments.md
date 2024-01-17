@@ -70,59 +70,59 @@ This lab compromises of three exercises:
 
 # Exercise 2: Create a segment with exclusion
 
-1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** section.
+1.  Log into Dynamics 365 Customer Insights - Journeys. Ensure you are in the **Real-time marketing** area.
 
-2.  Navigate to **Segments** under the **Audience** group. 
+2.  Open **Segments** under the **Audience** group. 
 
 3.  Select **+ New Segment**.
 
-4.  Name the segment `Business Customers`. Keep **Contact** selected as target audience.
+4.  Name the segment `Business Customers`
 
-6.  Let's use Copilot to create our segment again. In the Query Assist text box, type "Contact who description contains business."
+5.  Let's use Copilot to create the segment again. In the **Query Assist** field, enter `Contact whose description contains business`
 
-7.  Click **Create.**
+7.  Select **Create**.
 
-8.  Review the Result. It should say "Description contains business." Select **Use.**
+8.  Review the Result. It should say "Description Contains Business". Select **Use**.
 
-9.  In the Elements pane, select the **Segments** tab. You should see the Humongous Insurance segment you created in Exercise 1. (If your segment is not in the pane, your segment may still be building.)
+9.  Select the **Elements** pane on the right side, select the **Segments** tab. You should see the **Humongous Insurance** segment you created in Exercise 1. (If your segment is not in the pane, your segment may still be building.)
 
-10.  Select the plus sign next to the Humongous Insurance segment. It will create a new Group 2.
+10. Select the plus sign next to the Humongous Insurance segment. It will create a new Group 2.
 
-11. Change the operator to **but not.** This will create a segment that includes all contacts with "Business" in their Description *except* those from your competitor, Humoongous Insurance.
+11. Change the operator to **but not**. This will create a segment that includes all contacts with "Business" in their Description *except* those from the competitor, Humongous Insurance.
 
-12. Select **Save** and then select **Ready for use.**
+12. Select **Save** and then select **Ready to use**.
 
-12. Wait for your segment to build.
+12. **Wait** for your segment to build.
 
-13. Select the **Members and insights** tab. Verify you do not see any contacts with a Humongous Insurance email. 
+13. Select the **Members and insights** tab. Verify there are no contacts with a Humongous Insurance email. 
 
 
 # Exercise 3: Create a contact
 
 To participate in the journey, you will need to set yourself up as a contact. 
 
-1.  Log into Dynamics 365 Customer Insights - Journeys and ensure you are in the **Real-time marketing** section.
+1.  Log into Dynamics 365 Customer Insights - Journeys and ensure you are in the **Real-time marketing** area.
 
-2.  Navigate to **Contacts** under the **Audience** group. 
+2.  Open **Contacts** under the **Audience** group. 
 
-3.  Select **+New**.
+3.  Select **+ New**.
 
 4.  In the **First Name** field, enter a generic first name.
 
 5.  In the **Last Name** field, enter a generic last name.
 
-6.  In the **Job Title** field, enter Finance Director.
+6.  In the **Job Title** field, enter `Finance Director`
 
 7.  In the **Email** field, enter your email.
 
 8.  In the **Address 1: City** field, enter `Seattle`
 
-9.  In the **Address: State/Province** field, enter `Washington`. 
+9.  In the **Address: State/Province** field, enter `Washington` 
 
-10. Navigate to the **Details** tab. In the **Personal Notes** field, enter Business.
+10. Navigate to the **Details** tab. In the **Personal Notes** field, enter `Business`
 
 11. Select **Save &amp; Close**. 
 
-12. Navigate back to **Segments**. Open the **Business Customers** segment. Verify the contact you created appears.
+12. Navigate back to **Segments**. Open the **Business Customers** segment. Verify the new contact just created appears.
 
     **Note:** You may need to refresh or wait a few minutes before the contact appears.
