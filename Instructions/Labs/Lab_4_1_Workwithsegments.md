@@ -51,7 +51,9 @@ This lab compromises of three exercises:
 
 11. Change the operator from **and also** to **or**. 
 
-    - In the Attribute pane, start typing **Email**. Expand **Contact**. Select the plus button next to the field and add it to **Group 2**.
+    - In the **Attribute** pane, search for `Email`
+    
+    - Expand **Contact**. Select the **Email** field and add it to **Existing group** > **Group 2**.
 
     - Create the following condition: Email **contains** `humongousinsurance`
 
